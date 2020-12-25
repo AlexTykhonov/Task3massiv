@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Task31 {
 
     public static final String ANSI_BLUE = "\u001B[34m";
+
     public static void main(String[] args) {
         int[] massivInt = new int[5];
         Scanner in = new Scanner(System.in);
@@ -31,7 +32,7 @@ public class Task31 {
         System.out.println(" Массив: ");
         for (int ii = 0; ii < 5; ii++)
             System.out.print(ii + ": " + massivInt[ii] + "      ");
-        System.out.println(ANSI_BLUE+" Число единиц в массиве: " + onecounter);
+        System.out.println(ANSI_BLUE + " Число единиц в массиве: " + onecounter);
 
     }
 }
